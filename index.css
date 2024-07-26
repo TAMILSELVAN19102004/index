@@ -10,6 +10,8 @@ body {
   align-items: center;
   background-color: rgb(255, 222, 39);
   padding: 0;
+  position: sticky;
+  top: 0;
 }
 
 .logo {
@@ -18,6 +20,7 @@ body {
   width: 10px;
   height: auto;
   margin-left: 30px;
+  display: flex;
 }
 
 .nav-links {
@@ -86,12 +89,12 @@ marquee {
 
 .div1 {
   margin-top: 200px;
-  margin-right: 80px;
+  margin-right: 150px;
 }
 
 .div2 {
   margin-top: 100px;
-  margin-left: 250px;
+  margin-left: 100px;
 }
 
 .btn-box {
@@ -181,8 +184,10 @@ marquee {
 }
 .aboutme{
   text-align: center;
+  background-color: rgb(31, 1, 59);
   width: 100%;
-  font-size: 20px;
+  font-size: 30px;
+  color: #ccc;
 }
 .tam{
   margin-top: 50px;
@@ -223,7 +228,7 @@ marquee {
     width: 170px;
     display: flex;
     justify-content: space-between;
-    margin-left: 1100px;
+    margin-left: 1010px;
     margin-top: 30px;
    
 }
@@ -234,10 +239,10 @@ marquee {
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid rgb(0, 170, 255);
+    border: 2px solid rgb(255, 222, 39);
     border-radius: 50%;
     font-size: 20px;
-    color: rgb(0, 170, 255);
+    color: rgb(255, 222, 39);
     text-decoration: none;
 
 
